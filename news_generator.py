@@ -18,8 +18,8 @@ import argparse
 import json
 import sys
 import requests
-from summarizer import read_text_file
-from genai_title_with_keywords import keywords, build_prompt, summarize_title
+from text_summarizer.summarizer import read_text_file
+from title_with_keywords.task2.genai_title_with_keywords import keywords, build_prompt, summarize_title
 
 # === Стандартная астройка модели генерации ===
 DEFAULT_GEN_MODEL = "llama3.1"
