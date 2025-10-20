@@ -1,3 +1,6 @@
-__pycache__
-*.txt
-*.json
+*
+!news_generator.py
+!README.md
+!.gitignore
+!.gitmodules
+!requirements.txt
